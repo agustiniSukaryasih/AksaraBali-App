@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raditya.belajaraksarabali.AksaraBali"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/aksarabali"/>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/img"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+    <Button
+        android:id="@+id/wreastra"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="wianjana"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/aksarawre" />
+     <Button
+         android:id="@+id/angkabali"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_marginLeft="70dp"
+         android:onClick="goangka"
+         android:background="@drawable/angkabal" />
+
+    <Button
+        android:id="@+id/wijaksara"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="angka"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/iconwijak" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+    <Button
+        android:id="@+id/modre"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/iconmodre"
+        android:onClick="gng" />
+
+    <Button
+        android:id="@+id/pengtengenan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="pengte"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/pengteng" />
+
+    <Button
+        android:id="@+id/swalalita"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="swalalita"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/iconaksaraswa" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+    <Button
+        android:id="@+id/pengardasuara"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="aksarasuara"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/pengarda" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

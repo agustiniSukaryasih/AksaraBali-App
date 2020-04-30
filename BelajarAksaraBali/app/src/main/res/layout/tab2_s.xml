@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/pengardasuara" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView42"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        app:srcCompat="@drawable/gala" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView41"
+        android:layout_alignStart="@+id/imageView41"
+        android:layout_below="@+id/imageView41"
+        android:layout_marginTop="28dp"
+        android:text="Bersuara La"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView40"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/sukukembung" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView18"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignLeft="@+id/imageView42"
+        android:layout_alignStart="@+id/imageView42"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:text="Bersuara Wa"
+        android:textSize="20dp" />
+
+</RelativeLayout>

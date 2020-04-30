@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raditya.belajaraksarabali">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Mulai" />
+        <activity android:name=".Tentang" />
+        <activity android:name=".AksaraBali" />
+        <activity android:name=".Kuis" />
+        <activity android:name=".Cara" />
+        <activity
+            android:name=".AksaraWianjana"
+            android:label="@string/title_activity_aksara_wianjana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AngkaBali"
+            android:label="@string/title_activity_angka_bali"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gantungandangempelan"
+            android:label="@string/title_activity_gantungandangempelan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PenganggeTengenan"
+            android:label="@string/title_activity_pengangge_tengenan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".skor1" />
+        <activity android:name=".Kuis2" />
+        <activity android:name=".Kuis3" />
+        <activity android:name=".Kuis4" />
+        <activity android:name=".Kuis21" />
+        <activity android:name=".Kuis31" />
+        <activity
+            android:name=".AksaraSwalalita"
+            android:label="@string/title_activity_aksara_swalalita"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Kuis22" />
+        <activity android:name=".Kuis23" />
+        <activity android:name=".Kuis24" />
+        <activity android:name=".Kuis32" />
+        <activity android:name=".Kuis33" />
+        <activity
+            android:name=".AksaraSuara"
+            android:label="@string/title_activity_aksara_suara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AngkaBalii" />
+        <activity android:name=".Kuis34" />
+        <activity android:name=".Kuis41" />
+        <activity android:name=".Kuis42" />
+        <activity android:name=".Kuis43" />
+        <activity android:name=".Kuis44"></activity>
+    </application>
+
+</manifest>

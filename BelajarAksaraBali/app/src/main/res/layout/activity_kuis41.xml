@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raditya.belajaraksarabali.Kuis41"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp"
+        android:text="Soal 1" />
+
+    <TextView
+        android:id="@+id/Point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:textSize="17dp"
+        android:text="Terjemahkan dari suara dibawah ini kedalam aksara bali" />
+
+    <Button
+        android:id="@+id/suara"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:onClick="suara1"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:id="@+id/Benar_Salah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/buttonc"
+        android:layout_toRightOf="@+id/buttonc"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttond"
+        android:layout_alignLeft="@+id/Benar_Salah"
+        android:layout_alignStart="@+id/Benar_Salah"
+        android:background="@drawable/lanjut"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttona"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/suara"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_toLeftOf="@+id/buttonc"
+        android:layout_toStartOf="@+id/buttonc"
+        android:background="@drawable/jawabpuspa" />
+
+    <Button
+        android:id="@+id/buttonb"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/buttona"
+        android:layout_alignStart="@+id/buttona"
+        android:layout_below="@+id/buttona"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/jawab2butt"/>
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/suara"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/Point"
+        android:layout_toStartOf="@+id/Point"
+        android:background="@drawable/jawab3butt"/>
+
+    <Button
+        android:id="@+id/buttond"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignLeft="@+id/buttonc"
+        android:layout_alignStart="@+id/buttonc"
+        android:layout_below="@+id/buttonc"
+        android:background="@drawable/jawab4butt"/>
+
+</RelativeLayout>
